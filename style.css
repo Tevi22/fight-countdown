@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: space-between;
     width: 100%;
+    font-family: Aclonica;
 }
 
 .mayweather-container,
@@ -19,17 +20,17 @@ body {
 .mayweather-container {
     height: 100%;
     width: 50%;
-    background-image: url(https://assets.codepen.io/6060109/mayweather.png);
+    background:no-repeat center top url(https://assets.codepen.io/6060109/mayweather.png);
 }
 
 .logan-container {
     height: 100%;
     width: 50%;
-    background-image: url(https://assets.codepen.io/6060109/loganpaul.png)
+    background: url(https://assets.codepen.io/6060109/loganpaul.png) no-repeat center top;
 }
 
-.text-container {
-    background-image:url("https://assets.codepen.io/6060109/yellow-text-wrapper.png") ;
+.text-container-tc1{
+    background: no-repeat url("https://assets.codepen.io/6060109/yellow-text-wrapper.png") ;
     height: 15%;
     position: absolute;
     width: 100%;
@@ -37,14 +38,30 @@ body {
     align-items: center;
     bottom: 10%;
     font-size: 24px;
-}
-
-.text-container-1 {
+    text-align: center;
     left: -10%;
     padding-left: 100px;
+
 }
 
-.text-container-2 {
+.text-container-tc1 h1{
+
+}
+
+.text-container-tc2 h1{
+    padding-left: 200px;
+
+}
+
+.text-container-tc2{
+    background: no-repeat url("https://assets.codepen.io/6060109/yellow-text-wrapper.png") ;
+    height: 15%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    bottom: 10%;
+    font-size: 24px;
     right: -10%;
 }
 
